@@ -1,0 +1,24 @@
+{
+  "success": true,
+  "code": 200,
+  "message": "操作成功",
+  "data": {
+    "confirmedCount": 119503,
+    "confirmedIncr": 72,
+    "curedCount": 110774,
+    "curedIncr": 173,
+    "currentConfirmedCount": 3122,
+    "currentConfirmedIncr": -110,
+    "deadCount": 5607,
+    "deadIncr": 12,
+    "importedCount": 6888,
+    "importedIncr": 23,
+    "noInFectCount": 451,
+    "noInFectIncr": 8,
+    "suspectIncr": 0,
+    "suspectCount": 2,
+    "updateTime": "2021-07-15 20:39:11",
+    "curedRate": 92.7,
+    "deadRate": 4.69
+  }
+}
