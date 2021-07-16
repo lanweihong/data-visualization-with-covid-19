@@ -46,7 +46,7 @@
 
 效果图：
 
-![效果图](https://images.lanweihong.com/public/demo-datav-covid-19-preview-compression.png)
+![效果图](https://github.com/lanweihong/data-visualization-with-covid-19/blob/main/preview/demo-datav-covid-19-preview-compression.png)
 
 ## 开发
 
