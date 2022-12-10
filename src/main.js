@@ -17,6 +17,16 @@ if (process.env.NODE_ENV === 'development') {
   initMockData()
 }
 
+// 补充百度统计相关代码
+router.beforeEach(async (to, from, next) => {
+  if (to.path) {
+     if (window._hmt) {
+          window._hmt.push(['_trackPageview', '/#' + to.fullPath]);
+      }
+  }
+  next(); 
+});
+
 Vue.prototype.$echarts = echarts
 Vue.config.productionTip = false
 
